@@ -2,20 +2,20 @@ export const profile = {
   name: 'Derrick Gunawan',
   title: 'Computer Science & Applied Mathematics Undergraduate',
   university: 'BINUS University',
-  tagline: 'Exploring data, building softwares, and solving problems through technology and mathematics.',
+  tagline: 'Exploring data and solving problems through technology and mathematics.',
   interests: ['Data Science', 'Machine Learning', 'Web Development', 'Software Development'],
   email: 'derrickgunawan05@gmail.com',
   linkedin: 'https://www.linkedin.com/in/derrick-gunawan/',
   github: 'https://github.com/DerrickGunawan02',
   resume: '', // [ADD LINK] e.g. '/resume.pdf'
   about: [
-    'I am a Computer Science & Applied Mathematics undergraduate at BINUS University with an interest in data science, software development, machine learning, and algorithms.',
+    'I am a Computer Science & Applied Mathematics undergraduate at BINUS University with an interest in data science, software & web development, machine learning, and algorithms.',
     'I enjoy working on private & collaborative projects where technical problem solving can be combined with practical applications.',
   ],
   facts: [
     { label: 'Education', value: 'BINUS University' },
     { label: 'Field', value: 'Computer Science & Applied Mathematics' },
-    { label: 'Focus', value: 'Data Science & Software Development' },
+    { label: 'Focus', value: 'Data Science' },
     { label: 'Status', value: 'Undergraduate' },
     { label: 'GPA', value: '3.04' },
   ],
@@ -86,6 +86,6 @@ export const experience: Org[] = [
 export const skillGroups = [
   { title: 'Programming & Development', items: ['Python', 'C++', 'JavaScript', 'HTML', 'CSS'] },
   { title: 'Tools', items: ['GitHub', 'VS Code', 'Dev-C++', 'Jupyter Notebook', 'mySQL', 'Microsoft Office'] },
-  { title: 'Creative / Communication', items: ['English — Professional', 'Mandarin — Conversational'] },
+  { title: 'Creative / Communication', items: ['Indonesian — Native', 'English — Professional', 'Mandarin — Conversational'] },
 ]
 export const education = { school: 'BINUS University', degree: 'Computer Science & Applied Mathematics', level: 'Undergraduate', gpa: '3.04', graduation: '[ADD EXPECTED GRADUATION]' }
