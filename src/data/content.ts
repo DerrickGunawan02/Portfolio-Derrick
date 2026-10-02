@@ -33,30 +33,30 @@ export type Project = {
 // To add a project, append an object here — the card, filter and link update automatically.
 export const projects: Project[] = [
   {
-    title: "Fruit Freshness Classification",
+    title: "Fruit Image Reconstruction with Variational Autoencoders",
     category: "Computer Vision",
-    description: "Image classifier that predicts fruit freshness using deep learning.",
+    description: "This project explores whether generative models can learn what makes fruit look fresh or rotten.",
     technologies: ["Python", "PyTorch", "Deep Learning"],
     link: "https://drive.google.com/drive/folders/1GZgzRchNWpGTnor-7NxFAi_3ZHtxBMp3?usp=drive_link",
   },
   {
     title: "IndoBERT Sports Article Classification",
     category: "NLP",
-    description: "Fine-tuned IndoBERT for multi-class classification of Indonesian sports articles.",
+    description: "Developed a model to automatically classify Indonesian sports news into relevant topics, similar to how news websites organize their articles.",
     technologies: ["Python", "IndoBERT", "NLP"],
     link: "https://drive.google.com/drive/folders/1NBt3rogxBqdUulVVTbMJY6DxIEyJAPXR?usp=drive_link",
   },
   {
     title: "Text Emotion Detector",
     category: "NLP",
-    description: "Emotion detection from text using deep learning concepts.",
+    description: "I compared two deep learning approaches to detect various emotions (joy, sadness, anger, fear, love, surprise).",
     technologies: ["Python", "Deep Learning", "NLP"],
     link: "https://drive.google.com/drive/folders/1479BoPanrZKUYnNomF1-02wSK8UyTLtR?usp=drive_link",
   },
   {
-    title: "Indonesian YouTube Comment Sentiment",
+    title: "Topic & Audience Segmentation of Indonesian YouTube Comments",
     category: "NLP",
-    description: "Sentiment analysis of Indonesian YouTube comments with TF-IDF and machine learning.",
+    description: "Collected and clustered YouTube comments to uncover the audience groups in Indonesia's AI-in-education conversation.",
     technologies: ["Python", "TF-IDF", "Machine Learning"],
     link: "https://drive.google.com/drive/folders/13H21aLtsaEilyKytwIS7tcRbC3tH1DPQ?usp=drive_link",
   },
@@ -84,7 +84,7 @@ export const experience: Org[] = [
 ]
 
 export const skillGroups = [
-  { title: 'Programming & Development', items: ['Python', 'C++', 'JavaScript', 'HTML', 'CSS'] },
+  { title: 'Programming & Development', items: ['Python', 'C', 'JavaScript', 'HTML', 'CSS', 'SQL'] },
   { title: 'Tools', items: ['GitHub', 'VS Code', 'Dev-C++', 'Jupyter Notebook', 'mySQL', 'Microsoft Office'] },
   { title: 'Creative / Communication', items: ['Indonesian — Native', 'English — Professional', 'Mandarin — Conversational'] },
 ]
